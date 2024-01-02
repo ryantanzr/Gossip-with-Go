@@ -1,12 +1,14 @@
 import BasicThreadList from "../components/BasicThreadList";
+import ButtonStack from "../components/ButtonStack";
 import React from "react";
 
 const Home: React.FC = () => {
     return (
         <>
-            <h3>
-                {"Welcome to CVWO's sample react app! Here's a basic list of forum threads for you to experiment with."}
-            </h3>
+            <ButtonStack/>
+            <br/>
+            
+            <h1> {"Gossip with Golang"} </h1>
             <br />
             <BasicThreadList />
         </>
